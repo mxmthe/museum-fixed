@@ -6,7 +6,7 @@
 
 body {
 
-  background-color: #000;
+  background-color: #fff;
   color: white;
 }
 
@@ -15,6 +15,15 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 56px 0px;
+}
+
+.page {
+  height: 842px;
+}
+
+.bgc {
+  background-color: #030303;
+  background-size: cover;
 }
 
 .container {
@@ -51,8 +60,7 @@ body {
   display: flex;
   gap: 55px;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  opacity: 0.7;
 }
 
 .main-menu .menu-list a {
@@ -74,6 +82,7 @@ body {
   flex-direction: column;
   position: relative;
 }
+
 
 .welcome-title {
   font-family: 'Forum', serif;
@@ -159,4 +168,77 @@ body {
   display: flex;
   flex-direction: row;
   gap: 22px;
+}
+
+.virtual-tour {
+
+}
+
+
+.visiting-title {
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  max-width: 600px;
+  color: #9D8665;
+  margin-top: 137px;
+  margin-bottom: 25px;
+}
+
+.underline-title {
+  height: 3px;
+  width: 1440px;
+  background: #710707;
+}
+
+.virtual-tour .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 60px;
+}
+
+.place-card {
+  width: 440px;
+  height: 424px;
+  margin-top: 75px;
+}
+.place-img {
+}
+.place-title {
+  width: 252;
+  height: 35;
+  font-family: 'Forum';
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 16px 0;
+
+}
+.underline-subtitle {
+  width: 300px;
+  height: 2px;
+  background: #710707;
+  margin: 10px 0;
+}
+.place-desc {
+  width: 165px;
+  height: 26px;
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-size: 22px;
+  color: #000000;
+  margin: 10px 0;
+}
+.place-view {
+  width: 240px;
+  height: 21px;
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-size: 18px;
+  color: #000000;
 }
