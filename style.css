@@ -83,7 +83,6 @@ body {
   position: relative;
 }
 
-
 .welcome-title {
   font-family: 'Forum', serif;
   font-weight: 400;
@@ -170,11 +169,6 @@ body {
   gap: 22px;
 }
 
-.virtual-tour {
-
-}
-
-
 .visiting-title {
   font-family: 'Forum', serif;
   font-weight: 400;
@@ -184,7 +178,7 @@ body {
   text-transform: uppercase;
   max-width: 600px;
   color: #9D8665;
-  margin-top: 137px;
+  margin-top: 135px;
   margin-bottom: 25px;
 }
 
@@ -205,26 +199,39 @@ body {
   height: 424px;
   margin-top: 75px;
 }
-.place-img {
-}
+
 .place-title {
-  width: 252;
-  height: 35;
+  width: 252px;
+  height: 35px;
   font-family: 'Forum';
   font-weight: 400;
   font-size: 32px;
   letter-spacing: 5px;
   text-transform: uppercase;
   color: #000000;
-  margin: 16px 0;
-
+  margin: 19px 0;
 }
+
+.colin {
+  width: 403px;
+  height: 35px;
+  font-family: 'Forum';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 22px 0;
+}
+
 .underline-subtitle {
   width: 300px;
   height: 2px;
   background: #710707;
-  margin: 10px 0;
+  margin-top: 1px;
 }
+
 .place-desc {
   width: 165px;
   height: 26px;
@@ -234,6 +241,7 @@ body {
   color: #000000;
   margin: 10px 0;
 }
+
 .place-view {
   width: 240px;
   height: 21px;
@@ -241,4 +249,171 @@ body {
   font-weight: 200;
   font-size: 18px;
   color: #000000;
+}
+
+.explore__cover {
+  margin-top: 75px;
+  padding-top: 75px;
+}
+
+.bgc .explore__cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: start;
+
+}
+
+.comparison-container {
+  position: relative;
+  width: 1140px; 
+  height: 700px;
+  overflow: hidden;
+  margin-left: auto;
+  text-align: center;
+}
+
+.comparison-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.comparison-img.after {
+  clip-path: inset(0 0 0 50%);
+  transition: clip-path 0.2s ease-out;
+}
+
+.slider {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  z-index: 10;
+}
+
+.explore__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.explore-title  {
+  width: 660px;
+  height: 90px;
+  font-family: 'Forum';
+  font-weight: 400;
+  font-size: 80px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.underline-explore_title {
+  width: 660px;
+  height: 3px;
+  background: #710707;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+.explore-description {
+  width: 660px;
+  height: 77px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38.5px;
+  word-spacing: 1px;
+  margin-bottom: 25px;
+}
+.highlight {
+  color: rgb(179, 176, 21);
+}
+/*Video-section*/
+.video-file {
+}
+.container {
+}
+
+.video-text {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.video-title {
+  width: 610px;
+  height: 90px;
+  font-family: 'Forum';
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+}
+.video-desc {
+  width: 720px;
+  height: 90px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38.5px;
+  margin-left: 115px;
+  color: #000000;
+}
+.video-player {
+
+}
+.player-icon {
+  position: absolute;
+  z-index: 2;
+  width: 91.42619323730469px;
+  height: 120.17610168457031px;
+  color: #fff;
+}
+.player-round {
+  position: absolute;
+  z-index: 2;
+  width: 220.0000457763672px;
+  height: 219.99996948242188px;
+  color: #fff;
+}
+.video-panel {
+}
+.volume-icon {
+}
+.video-scroll {
+}
+.volume-scroll {
+}
+.screen-icon {
+}
+.video-content {
+  background-image: url(./assets/img/video-poster.jpg);
+  position: relative;
+  z-index: 1;
+  width: 1440px;
+  height: 650px;
+}
+.video-item {
+}
+.recommend__video-title {
+}
+.youtube-icon {
+}
+.recommend__video-content {
+}
+.video-pagination {
+}
+.video-arrows-left {
+}
+.circles {
+}
+.circle {
+}
+.active {
 }
