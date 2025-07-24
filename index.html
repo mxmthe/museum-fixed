@@ -31,8 +31,9 @@
       </div>
     </div>
   </header>
-  <main class="page bgc">
-      <section id="welcome" class="welcome container">
+  <main class="page">
+      <section id="welcome" class="welcome-bg">
+        <div class="container welcome">
           <h1 class="welcome-title">Welcome <br />to the Louvre</h1>
           <h2 class="welcome-subtitle">From the castle to the museum</h2>
           <a class="welcome-button" target="_blank"
@@ -56,6 +57,7 @@
               <div class="arrow-right"><img src="./assets//img/arrow-right.svg" /></div>
             </div>
           </div>
+        </div>
       </section>
       <section id="visiting" class="virtual-tour container">
         <h2 class="visiting-title">virtual tour</h2>
@@ -78,7 +80,7 @@
           <div class="place-card">
             <img src="./assets/img/place3.jpg" alt="" class="place-img">
             <h4 class="colin">Colonnade Perrault</h4>
-            <div class="underline-subtitle"></div>
+            <div class="underline-subtitle-colin"></div>
             <p class="place-desc">360° Virtual Tour</p>
             <p class="place-view">Google Street Panorama View</p>
           </div>
@@ -105,7 +107,7 @@
           </div>
         </div>
       </section>
-      <section id="explore" class="bgc">
+      <section id="explore" class="explore-section">
         <div class="explore__cover container">
           <div class="comparison-container">
             <div class="comparison-img before">
@@ -163,24 +165,158 @@
               </div>
             </div>
           </div>
-          <div class="video-item">
-            <p class="recommend__video-title"></p>
-            <div class="youtube-icon"></div>
-            <img src="" alt="" class="recommend__video-content">
+          <div class="video-items">
+            <div class="video-file">
+              <iframe width="452" height="254" src="https://www.youtube.com/embed/aWmJ5DgyWPI?si=2NSeHDnwdrEp-M_3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video-file">
+              <iframe width="452" height="254" src="https://www.youtube.com/embed/Vi5D6FKhRmo?si=tWVd1HDb_FGtM7Y7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video-file">
+              <iframe width="452" height="254" src="https://www.youtube.com/embed/NOhDysLnTvY?si=PzsRj5toFQEADynl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
           </div>
           <div class="video-pagination">
-            <div class="video-arrows-left"></div>
+            <div class="video-arrows-left"><img src="./assets/img/stroke-left.svg"></div>
             <div class="circles">
-              <div class="circle active"></div>
+              <div class="circle active-circle"></div>
               <div class="circle"></div>
               <div class="circle"></div>
               <div class="circle"></div>
               <div class="circle"></div>
             </div>
+            <div class="video-arrows-right"><img src="./assets/img/stroke-right.svg"></div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="gallery bgc">
+        <div class="container">
+          <h2 class="gallery-title">Art Gallery</h2>
+          <div class="gallery-items">
+            <div class="gallery-column" style="margin-top: 50px;">
+              <img class="gallery-image" src="./assets/img/galery2.png">
+              <img class="gallery-image" src="./assets/img/galery9.png">
+              <img class="gallery-cube" src="./assets/img/galery4.png">
+              <img class="gallery-cube" style="height: 242px;" src="./assets/img/galery6.png">
+            </div>
+            <div class="gallery-column">
+              <img class="gallery-cube" src="./assets/img/galery1.png">
+              <img class="gallery-image" src="./assets/img/galery8.png">
+              <img class="gallery-image" src="./assets/img/galery3.png">
+              <img class="gallery-cube" style="height: 292px;" src="./assets/img/galery5.png">
+            </div>
+            <div class="gallery-column" style="margin-top: 50px;">
+              <img class="gallery-image" src="./assets/img/galery7.png">
+              <img class="gallery-cube" src="./assets/img/galery10.png">
+              <img class="gallery-cube" src="./assets/img/galery15.png">
+              <img class="gallery-image" style="height: 342px;" src="./assets/img/galery12.png">
+            </div>
+            <div class="gradient"></div>
+          </div>
+        </div>
+      </section>
+      <section id="tickets" class="tickets-section">
+        <div class="container">
+          <h2 class="tickets-title">BUY TICKETS</h2>
+          <div class="underline-title"></div>
+          <div class="tickets-content">
+            <img class="tickets-image" src="./assets/img/tickets-image.png">
+            <div class="tickets-type">
+              <h3 class="tickets-type-title">Ticket Type</h3>
+              <div class="tickets-type-select"><div class="dot active-dot"></div>Permanent exhibition</div>
+              <div class="tickets-type-select"><div class="dot"></div>Temporary exhibition</div>
+              <div class="tickets-type-select"><div class="dot"></div>Combined Admission</div>
+            </div>
+            <div class="amount">
+              <h3 class="tickets-type-title">Amount</h3>
+              <div class="label">Basic 18+</div>
+              <div class="counter">
+                <div class="counter-item">-</div>
+                <div class="counter-value">1</div>
+                <div class="counter-item">+</div>
+              </div>
+              <div class="label">Senior 65+</div>
+              <div class="counter">
+                <div class="counter-item">-</div>
+                <div class="counter-value">1</div>
+                <div class="counter-item">+</div>
+              </div>
+              <h3 class="tickets-type-total">Total €220</h3>
+              <div class="buy-btn">
+                Buy Now
+              </div>
+            </div>
+          </div>
+        </div>    
+      </section>
+      <section class="parallax"></section>
+      <section id="contacts">
+        <div class="container">
+          <h2 class="tickets-title">Contacts</h2>
+          <div class="underline-title"></div>
+          <div class="contacts-content">
+            <div class="contacts-info">
+              <div class="title">Palais Royal Musee du Louvre</div>
+              <div>
+                <div class="text address">address: 75001 Paris, France</div>
+                <div class="text phone">phone: +33(0) 1 40 20 50 50</div>
+                <div class="text mail">mail: info@louvre.fr</div>
+              </div>
+            </div>
+            <img class="contacts-map" src="./assets/img/map.png" />
           </div>
         </div>
       </section>
   </main>
+  <footer class="finish">
+    <div class="container">
+      <div class="footer-content">
+        <div class="finish-logo">
+          <img src="./assets/img/Vector.svg" alt="Museum-logo" class="logo-icon">
+          <span class="logo-text">Louvre</span>
+        </div>
+        <nav class="finish-menu-list">
+          <ul class="finish-menu-list-links">
+            <li><a href="#visiting">Visiting</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#tickets">Tickets</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="social-media">
+          <li>
+            <a class="social-media-icon" href="https://www.youtube.com/user/louvre">
+              <img src="./assets/img/Youtube.svg" alt="YouTube icon">
+            </a>
+          </li>
+          <li>
+            <a class="social-media-icon" href="https://www.instagram.com/museelouvre/">
+              <img src="./assets/img/Instagram.svg" alt="Instagram icon">
+            </a>
+          </li>
+          <li>
+            <a class="social-media-icon" href="https://www.facebook.com/museedulouvre">
+              <img src="./assets/img/Facebook.svg" alt="Facebook icon">
+            </a>
+          </li>
+          <li><a class="social-media-icon" href="http://twitter.com/museelouvre">
+              <img src="./assets/img/Twitter.svg" alt="Twitter icon">
+            </a></li>
+          <li><a class="social-media-icon" href="https://www.pinterest.fr/museedulouvre/">
+              <img src="./assets/img/Pinterest.svg" alt="Pinterest icon">
+            </a></li>
+        </ul>
+      </div>
+      <div class="finish-line"></div>
+      <div class="container last-finish-line">
+        <div>© 2021</div>
+        <div>The Rolling Scopes School</div>
+        <div>mxmthe</div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
